@@ -1,0 +1,16 @@
+ul  {
+    list-style: none;
+    padding: 0;
+    width: 100%;
+    margin: auto;
+}
+
+li a:hover  {
+    font-size: 1.3rem;
+    line-height: 2rem;
+    border-bottom: 1 px dotted #777;
+}
+
+li:hover  {
+font-weight:bold;
+}

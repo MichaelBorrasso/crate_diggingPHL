@@ -1,0 +1,79 @@
+.App {
+  text-align: center;
+  
+}
+
+.App-logo {
+  animation: App-logo-spin infinite 20s linear;
+  height: 80px;
+}
+
+.App-header {
+  
+  height: 125px;
+  padding: 0px;
+  color: black;
+  font-family: 'Libre Barcode 128 Text';
+  margin-bottom: 20px;
+  font-size: 2em;
+}
+
+#Header_center  {
+  background-color: white !important;
+  
+}
+
+#Header-block  {
+  background-color: black !important;
+  
+
+}
+
+.App-title {
+
+  font-size: 4rem;
+  margin-top: 15px;
+  
+}
+
+.jumbotron  {
+
+  background-color: transparent;
+  padding: 0px;
+}
+
+#searchButton  {
+  margin-top:10px;
+}
+
+#searchInput  {
+  margin-top:15px;
+  margin-bottom:10px;
+  width: 50%;
+  margin-left: 25%;
+  
+
+
+} 
+ 
+.App-intro {
+  font-size: large;
+}
+
+
+h2  {
+  /* font-family: 'Proza Libre', sans-serif; */
+   font-family: 'Libre Franklin', sans-serif 
+  /* font-family: 'Anton', sans-serif; */
+}
+
+@keyframes App-logo-spin {
+  from { transform: rotate(0deg); }
+  to { transform: rotate(360deg); }
+}
+
+@media only screen and (max-width: 600px) {
+[class*="col-"] {
+  width: 100%
+}
+}

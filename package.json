@@ -1,0 +1,27 @@
+{
+  "name": "crate_diggingphl",
+  "version": "1.0.0",
+  "description": "vinyl app",
+  "main": "server.js",
+  "scripts": {
+    "start": "node server.js",
+    "server": "nodemon server.js",
+    "client": "npm start --prefix client",
+    "dev": "concurrently \"npm run server\" \"npm run client\""
+  },
+  "author": "Michael Borrasso",
+  "license": "MIT",
+  "dependencies": {
+    "axios": "^0.18.0",
+    "body-parser": "^1.18.3",
+    "concurrently": "^3.6.0",
+    "disconnect": "^1.2.1",
+    "dotenv": "^6.0.0",
+    "express": "^4.16.3",
+    "react-router-dom": "^4.3.1",
+    "request": "^2.87.0"
+  },
+  "devDependencies": {
+    "nodemon": "^1.17.5"
+  }
+}
