@@ -4,7 +4,9 @@ Vinyl subscription app, pulling from DiscogsAPI.
 using disconnect npm package
 
 https://www.npmjs.com/package/disconnect
+
 disconnect is a Node.js client library that connects with the Discogs.com API v2.0.
+
 npm i disconnect
 
 Covers all API endpoints
